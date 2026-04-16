@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Rui Wang</title>
+    <link rel="icon" id="dynamicFavicon" href="trans.png"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0B0A0F;
+            background-image: radial-gradient(circle at 15% 30%, rgba(139, 92, 246, 0.08) 0%, rgba(236, 72, 153, 0.05) 100%);
+            scroll-behavior: smooth;
+        }
+        .resume-card {
+            transition: transform 0.25s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(0px);
+        }
+        .resume-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 30px 40px -20px rgba(236, 72, 153, 0.25), 0 0 0 1px rgba(168, 85, 247, 0.2);
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 48px;
+            height: 3px;
+            background: linear-gradient(90deg, #ec4899, #a855f7);
+            border-radius: 6px;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #f9a8d4, #c084fc);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .badge-pink-purple {
+            background: linear-gradient(110deg, rgba(236, 72, 153, 0.15), rgba(168, 85, 247, 0.2));
+            border: 1px solid rgba(236, 72, 153, 0.3);
+        }
+        .timeline-dot {
+            background: linear-gradient(145deg, #ec4899, #a855f7);
+        }
+        ::selection {
+            background: #a855f7;
+            color: #fff;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1E1B2A;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c084fc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-200">
+
+    <main class="max-w-5xl mx-auto py-6 md:py-12 px-4 sm:px-6 lg:px-8">
+        <div class="bg-[#0E0C15] rounded-3xl shadow-2xl overflow-hidden resume-card border border-white/5">
+            <div class="bg-gradient-to-r from-[#0b0912] to-[#15121f] px-6 py-8 md:px-10 md:py-10 border-b border-white/10">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+                    <div class="space-y-3">
+                        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
+                            RUI <span class="gradient-text">WANG</span>
+                        </h1>
+                        <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-300 mt-2">
+                            <span class="inline-flex items-center gap-2"><i class="fas fa-envelope text-pink-400 w-4"></i> julietwiskey@outlook.com</span>
+                            <span class="inline-flex items-center gap-2"><i class="fas fa-phone-alt text-purple-400"></i> +86 131-2932-1334</span>
+                            <span class="inline-flex items-center gap-2"><i class="fab fa-github text-pink-300"></i> gitee.com/johnsmz</span>
+                        </div>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-2 border border-purple-500/30 shadow-[0_0_12px_rgba(168,85,247,0.2)]">
+                        <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center shadow-lg">
+                            <!-- <span class="text-3xl font-bold text-white" href="logo.png">RW</span> -->
+                            <div class="text-3xl font-bold text-white"><img class="text-3xl font-bold text-white" src="logo.png"></img></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-l-4 border-pink-500 pl-4">
+                    <div class="flex items-center gap-2"><i class="fas fa-user text-pink-400 w-5"></i> <span class="text-gray-300">Full Name:</span> <span class="text-white font-medium">Rui Wang</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-map-marker-alt text-pink-400 w-5"></i> <span class="text-gray-300">Location:</span> <span class="text-white">Guangzhou, China</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-graduation-cap text-pink-400 w-5"></i> <span class="text-gray-300">Education:</span> <span class="text-white">University of Oxford · Computer Science</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-calendar-alt text-pink-400 w-5"></i> <span class="text-gray-400">Date of Birth:</span> <span class="text-white">27 Nov 2006</span></div>
+                </div>
+                <div class="mt-6 bg-white/5 rounded-xl p-4 border border-purple-500/20">
+                    <p class="text-gray-200 text-sm leading-relaxed">
+                    I have a calm and steady personality. I don't do things without deliberately thinking and analysing possibility. This mindset has shaped the way I code — carefully, patiently, and with attention to detail.
+                    I am passionate about computers and how they function. Digging deep into the assembly and trying to optimising cycle by cycle has givin me a different view of computer science. Computer science is a field in which I have developed much interest, but more importantly, a craft which I enjoy learning.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-6 md:p-10">
+                <div class="lg:col-span-1 space-y-8">
+                    <div>
+                        <div class="flex items-center gap-3 mb-5">
+                            <i class="fas fa-graduation-cap text-2xl text-pink-400"></i>
+                            <h2 class="section-title text-xl font-bold text-white">Education</h2>
+                        </div>
+                        <div class="space-y-5">
+                            <div class="border-l-4 border-purple-500 pl-4 transition-all hover:bg-white/5 rounded-r-lg p-2">
+                                <h3 class="text-lg font-semibold text-white">Guangzhou Foreign Language School · AP/AL Project</h3>
+                                <p class="text-sm text-pink-300 font-medium">H.S. | 2022 – 2025 <span class="ml-2 bg-emerald-900/40 text-emerald-200 px-2 py-0.5 rounded-full text-xs border border-emerald-500/30">Graduated</span></p>
+                                <!-- <p class="text-gray-400 text-sm mt-1">Specialized in distributed systems & cloud-native tech. GPA 3.9/4.0. Graduation project won "Outstanding Engineering Award".</p> -->
+                            </div>
+                            <div class="border-l-4 border-amber-400 pl-4 bg-amber-900/10 rounded-r-lg py-2 border border-amber-500/20">
+                                <h3 class="text-lg font-semibold text-white">University of Oxford · Computer Science</h3>
+                                <p class="text-sm text-amber-300 font-medium flex items-center gap-1"><i class="fas fa-clock"></i> Fresher · Expected 2029</p>
+                                <p class="text-gray-400 text-sm mt-1">Current courses: Discrete / Continuous Maths, Functional / Imperative Programming, Digital System, Linear Algebra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-5">
+                            <i class="fas fa-code text-2xl text-purple-400"></i>
+                            <h2 class="section-title text-xl font-bold text-white">Core Competencies</h2>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">C/C++</span>
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">JavaScript/TypeScript</span>
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">Python</span>
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">Java</span>
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">Scala</span>
+                            <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">Haskell</span>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-200 mb-2">Languages</h3>
+                            <div class="space-y-2">
+                                <div><span class="text-sm font-medium text-gray-300">Chinese (Native)</span><div class="w-full bg-gray-800 rounded-full h-1.5 mt-1"><div class="bg-gradient-to-r from-pink-400 to-purple-500 h-1.5 rounded-full w-full"></div></div></div>
+                                <div><span class="text-sm font-medium text-gray-300">English (TOEFL 114)</span><div class="w-full bg-gray-800 rounded-full h-1.5 mt-1"><div class="bg-gradient-to-r from-pink-400 to-purple-500 h-1.5 rounded-full w-11/12"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 space-y-8">
+                    <div>
+                        <div class="flex items-center gap-3 mb-5">
+                            <i class="fas fa-users text-2xl text-purple-400"></i>
+                            <h2 class="section-title text-xl font-bold text-white">Team Experience</h2>
+                        </div>
+                        <div class="space-y-4">
+                            <!-- Programming Club -->
+                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
+                                <h3 class="font-bold text-white"><i class="fas fa-code text-pink-300 mr-2"></i> Programming Club – Core Member & Cofounder</h3>
+                                <!-- <p class="text-sm text-purple-300 mt-1">Sep 2022 – Present</p> -->
+                                <p class="text-gray-300 text-sm mt-2">Member of high school programming club. Mentored students in algorithms and data structures and basic skills in comnputer science.</p>
+                            </div>
+                            <!-- Entrepreneurial Firm -->
+                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
+                                <h3 class="font-bold text-white"><i class="fas fa-lightbulb text-pink-300 mr-2"></i> Entrepreneurial Firm – Tech Intern / Developer</h3>
+                                <!-- <p class="text-sm text-purple-300 mt-1">Jun 2023 – Aug 2024</p> -->
+                                <p class="text-gray-300 text-sm mt-2">Worked with a student‑led startup focused on AI‑powered tools. Built a mini‑program that helps students use AI to score and review their exam papers and competition preparation materials. Gained hands‑on experience in agile workflows and cross‑team collaboration in a fast‑paced entrepreneurial environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-5">
+                            <i class="fas fa-trophy text-2xl text-pink-400"></i>
+                            <h2 class="section-title text-xl font-bold text-white">Activities & Competitions</h2>
+                        </div>
+                        <div class="space-y-5">
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-brain text-pink-300 mr-2"></i> British Mathematical Olympiad - Distinction</h3>
+                                    <span class="text-xs bg-pink-900/40 text-pink-200 px-2 py-1 rounded-full border border-pink-500/30">Math Olympiad</span>
+                                </div>
+                                <!-- <p class="text-gray-300 text-sm mt-2">Selected participant demonstrating advanced proof‑based problem‑solving and mathematical reasoning. Tackled complex number theory, combinatorics, and geometry problems under time pressure.</p> -->
+                            </div>
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-code text-purple-300 mr-2"></i> USA Computing Olympology – Gold Division</h3>
+                                    <span class="text-xs bg-purple-900/40 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">Algorithmic Programming</span>
+                                </div>
+                                <!-- <p class="text-gray-300 text-sm mt-2">Skilled in algorithmic optimization, data structures (segment trees, Fenwick, graphs), and efficient implementation. Solved real-time competitive programming challenges with strict runtime constraints.</p> -->
+                            </div>
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-shield-alt text-pink-300 mr-2"></i> picoCTF – No. 38 Global Division</h3>
+                                    <span class="text-xs bg-rose-900/40 text-rose-200 px-2 py-1 rounded-full border border-rose-500/30">Capture The Flag</span>
+                                </div>
+                                <!-- <p class="text-gray-300 text-sm mt-2">Competitor with hands‑on experience in cryptography, forensics, and web security exploits. Solved binary exploitation and reverse engineering challenges in Carnegie Mellon’s flagship CTF.</p> -->
+                            </div>
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-atom text-purple-300 mr-2"></i> British Physics Olympiad - Top Gold</h3>
+                                    <span class="text-xs bg-indigo-900/40 text-indigo-200 px-2 py-1 rounded-full border border-indigo-500/30">Physics Competition</span>
+                                </div>
+                                <!-- <p class="text-gray-300 text-sm mt-2">Competitor applying advanced physics concepts (mechanics, electromagnetism, thermodynamics) to solve complex multi‑step analytical problems. Demonstrated quantitative reasoning and experimental design skills.</p> -->
+                            </div>
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-flag-checkered text-pink-300 mr-2"></i> China Digital Virtual Championship – Finalist</h3>
+                                    <span class="text-xs bg-amber-900/40 text-amber-200 px-2 py-1 rounded-full border border-amber-500/30">Motorsport</span>
+                                </div>
+                                <!-- <p class="text-gray-300 text-sm mt-2">Combined strategic racecraft with practical knowledge of vehicle behavior to maintain consistency and pace under pressure.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-white/10 bg-black/30 px-6 py-5 md:px-10 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm text-gray-400">
+                <div class="flex space-x-5">
+                    <a href="#" class="hover:text-pink-400 transition"><i class="fab fa-github"></i> Gitee</a>
+                </div>
+                <p class="text-center">© 2026 Rui Wang <i class="fas fa-heart text-pink-500"></i></p>
+                <button onclick="window.print()" class="bg-white/5 border border-purple-500/40 hover:bg-purple-900/40 text-gray-200 px-3 py-1 rounded-full text-xs transition flex items-center gap-1"><i class="fas fa-print text-pink-300"></i> Print / PDF</button>
+            </div>
+        </div>
+        <!-- <div class="text-center text-gray-500 text-xs mt-6">
+            <i class="fas fa-code-branch text-purple-400"></i> Fully responsive · Dark mode with pink/purple accents · Ready for GitHub Pages
+        </div> -->
+    </main>
+
+    <script>
+        document.querySelectorAll('a[href^="http"]').forEach(link => {
+            if (!link.href.includes(window.location.hostname)) {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer');
+            }
+        });
+        const printStyle = document.createElement('style');
+        printStyle.innerHTML = `@media print { body { background: white; } .resume-card { box-shadow: none; margin:0; background: #0E0C15; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .bg-gradient-to-r, .bg-black\/30, .bg-white\/5 { background: #111 !important; } button, .fa-heart { display: none; } a { text-decoration: none; color: #c084fc; } }`;
+        document.head.appendChild(printStyle);
+    </script>
+</body>
+</html>
