@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>王睿 · 个人简历</title>
+    <title>王睿 · 简历与作品集</title>
     <link rel="icon" id="dynamicFavicon" href="trans.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -75,7 +75,7 @@
 
     <main class="max-w-5xl mx-auto py-6 md:py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-[#0E0C15] rounded-3xl shadow-2xl overflow-hidden resume-card border border-white/5">
-            <!-- 头部区域：姓名 + 联系方式 -->
+            <!-- 头部信息 -->
             <div class="bg-gradient-to-r from-[#0b0912] to-[#15121f] px-6 py-8 md:px-10 md:py-10 border-b border-white/10">
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                     <div class="space-y-3">
@@ -94,28 +94,25 @@
                         </div>
                     </div>
                 </div>
-                <!-- 基本信息栏 -->
                 <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-l-4 border-pink-500 pl-4">
                     <div class="flex items-center gap-2"><i class="fas fa-user text-pink-400 w-5"></i> <span class="text-gray-300">姓名：</span> <span class="text-white font-medium">王睿</span></div>
                     <div class="flex items-center gap-2"><i class="fas fa-map-marker-alt text-pink-400 w-5"></i> <span class="text-gray-300">所在地：</span> <span class="text-white">中国 · 广州</span></div>
                     <div class="flex items-center gap-2"><i class="fas fa-graduation-cap text-pink-400 w-5"></i> <span class="text-gray-300">教育背景：</span> <span class="text-white">牛津大学 · 计算机科学</span></div>
                     <div class="flex items-center gap-2"><i class="fas fa-calendar-alt text-pink-400 w-5"></i> <span class="text-gray-400">出生日期：</span> <span class="text-white">2006年11月27日</span></div>
                 </div>
-                <!-- 个人简介 -->
                 <div class="mt-6 bg-white/5 rounded-xl p-4 border border-purple-500/20">
                     <p class="text-gray-200 text-sm leading-relaxed">
-                        性格沉稳平和，做事前习惯审慎思考、分析可行性。这种思维方式塑造了我的编程习惯 —— 细心、耐心，注重细节。
-                        对计算机及其底层运转充满热情。深入汇编层面、逐周期优化代码的经历，赋予了我看待计算机科学的不同视角。
-                        计算机科学是我热爱的领域，更是一门让我乐在其中的技艺。
+                    我性格沉稳平和。做任何事之前，我都会仔细思考并分析其可能性。这种思维模式也塑造了我的编码方式——细致、耐心、注重细节。
+                    我对计算机及其运行原理充满热情。深入底层汇编，尝试逐周期优化，这让我对计算机科学有了不同的理解。计算机科学不仅是我深感兴趣的领域，更是一门我乐在其中的技艺。
                     </p>
                 </div>
             </div>
 
-            <!-- 主体：左栏（教育/技能） + 右栏（经历/竞赛/项目） -->
+            <!-- 主体内容：左侧栏 + 右侧内容区 -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-6 md:p-10">
-                <!-- 左侧栏 -->
+                <!-- 左侧栏：教育背景 + 核心能力 -->
                 <div class="lg:col-span-1 space-y-8">
-                    <!-- 教育 -->
+                    <!-- 教育背景 -->
                     <div>
                         <div class="flex items-center gap-3 mb-5">
                             <i class="fas fa-graduation-cap text-2xl text-pink-400"></i>
@@ -124,23 +121,24 @@
                         <div class="space-y-5">
                             <div class="border-l-4 border-amber-400 pl-4 bg-amber-900/10 rounded-r-lg py-2 border border-amber-500/20">
                                 <h3 class="text-lg font-semibold text-white">牛津大学 · 计算机科学</h3>
-                                <p class="text-sm text-amber-300 font-medium flex items-center gap-1"><i class="fas fa-clock"></i> 大一新生 · 预计2029年毕业</p>
+                                <p class="text-sm text-amber-300 font-medium flex items-center gap-1"><i class="fas fa-clock"></i> 大一 · 预计2029年毕业</p>
                                 <p class="text-gray-400 text-sm mt-1">当前课程：离散/连续数学、函数式/命令式编程、数字系统、线性代数</p>
                             </div>
                             <div class="border-l-4 border-purple-500 pl-4 transition-all hover:bg-white/5 rounded-r-lg p-2">
-                                <h3 class="text-lg font-semibold text-white">广州外国语学校 · AP/AL 项目</h3>
+                                <h3 class="text-lg font-semibold text-white">广州外国语学校</h3>
                                 <p class="text-sm text-pink-300 font-medium">高中 | 2022 – 2025 <span class="ml-2 bg-emerald-900/40 text-emerald-200 px-2 py-0.5 rounded-full text-xs border border-emerald-500/30">已毕业</span></p>
                             </div>
                         </div>
                     </div>
-                    <!-- 核心技能 -->
+
+                    <!-- 核心能力 -->
                     <div>
                         <div class="flex items-center gap-3 mb-5">
                             <i class="fas fa-code text-2xl text-purple-400"></i>
                             <h2 class="section-title text-xl font-bold text-white">核心能力</h2>
                         </div>
                         <div>
-                            <h3 class="font-semibold text-gray-200 mb-2">熟练编程语言</h3>
+                            <h3 class="font-semibold text-gray-200 mb-2">熟练使用的编程语言</h3>
                             <div class="flex flex-wrap gap-2 mb-5">
                                 <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">C/C++</span>
                                 <span class="bg-white/5 text-pink-200 border border-purple-500/30 px-3 py-1.5 rounded-full text-sm font-medium">JavaScript/TypeScript</span>
@@ -160,137 +158,139 @@
                     </div>
                 </div>
 
-                <!-- 右侧栏：经历/竞赛/项目 -->
+                <!-- 右侧区域 (占据两列)：团队经验、项目、竞赛与荣誉 -->
                 <div class="lg:col-span-2 space-y-8">
-                    <!-- 团队经历 -->
+                    <!-- 团队经验 -->
                     <div>
                         <div class="flex items-center gap-3 mb-5">
                             <i class="fas fa-users text-2xl text-purple-400"></i>
                             <h2 class="section-title text-xl font-bold text-white">团队经历</h2>
                         </div>
                         <div class="space-y-4">
+                            <!-- 编程社团 -->
                             <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
-                                <h3 class="font-bold text-white"><i class="fas fa-code text-pink-300 mr-2"></i> 编程社团 – 核心成员 & 联合创始人</h3>
+                                <h3 class="font-bold text-white"><i class="fas fa-code text-pink-300 mr-2"></i> 联合创始人 & 核心成员 · 编程社团</h3>
                                 <p class="text-sm text-purple-300 mt-1">2023年9月 – 2024年6月</p>
-                                <p class="text-gray-300 text-sm mt-2">高中编程社团核心成员，指导同学学习算法、数据结构以及计算机科学基础技能。</p>
+                                <p class="text-gray-300 text-sm mt-2">高中编程社团的联合创始人及核心成员。指导学生算法与数据结构，以及计算机科学的基础技能。</p>
                             </div>
+                            <!-- 创业公司实习 -->
                             <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
-                                <h3 class="font-bold text-white"><i class="fas fa-lightbulb text-pink-300 mr-2"></i> 学生创业公司 – 技术实习生 / 开发</h3>
+                                <h3 class="font-bold text-white"><i class="fas fa-lightbulb text-pink-300 mr-2"></i>技术实习生 / 开发人员 · 创业公司</h3>
                                 <p class="text-sm text-purple-300 mt-1">2024年1月 – 2025年1月</p>
-                                <p class="text-gray-300 text-sm mt-2">参与一家学生主导的AI工具初创公司，开发了一款帮助学生在考试及竞赛备考中利用AI评分与复盘的小程序。在敏捷开发流程中获得实战经验，并在快节奏的创业环境中锻炼了跨团队协作能力。</p>
+                                <p class="text-gray-300 text-sm mt-2">在一家学生主导的AI工具初创公司工作，开发了一个帮助学生们使用AI来评分和批改试卷及竞赛备考材料的小程序。在快节奏的创业环境中积累了敏捷工作流和跨团队协作的实践经验。</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 竞赛与活动 (包含所有已添加奖项) -->
+                    <!-- 项目 -->
+                    <div>
+                        <div class="flex items-center gap-3 mb-5">
+                            <i class="fas fa-microchip text-2xl text-purple-400"></i>
+                            <h2 class="section-title text-xl font-bold text-white">项目</h2>
+                        </div>
+                        <div class="space-y-4">
+                            <!-- httj - C语言HTTP服务器框架 -->
+                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
+                                <h3 class="font-bold text-white"><i class="fas fa-server text-pink-300 mr-2"></i> httj – C语言HTTP服务器框架</h3>
+                                <p class="text-sm text-purple-300 mt-1">C · Socket编程 · 多线程</p>
+                                <p class="text-gray-300 text-sm mt-2">使用C语言从零构建了一个轻量级HTTP服务器框架。实现了请求解析、路由、响应处理以及静态文件服务支持。</p>
+                            </div>
+                            <!-- 基于STM32的模拟赛车踏板 -->
+                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
+                                <h3 class="font-bold text-white"><i class="fas fa-microchip text-pink-300 mr-2"></i> 模拟赛车踏板 – STM32 · 霍尔效应 · 压力传感器</h3>
+                                <p class="text-sm text-purple-300 mt-1">STM32 · C · 嵌入式系统 · 传感器融合</p>
+                                <p class="text-gray-300 text-sm mt-2">使用STM32微控制器设计并制作了一套定制模拟赛车踏板。实现了基于霍尔效应的非接触式油门感应，以及用于精确刹车压力测量的压力传感器。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 竞赛与荣誉 -->
                     <div>
                         <div class="flex items-center gap-3 mb-5">
                             <i class="fas fa-trophy text-2xl text-pink-400"></i>
                             <h2 class="section-title text-xl font-bold text-white">竞赛与荣誉</h2>
                         </div>
                         <div class="space-y-5">
-                            <!-- 英国数学奥赛 -->
+                            <!-- 优秀毕业生 -->
                             <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
                                 <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-brain text-pink-300 mr-2"></i> 英国数学奥林匹克 - 优异奖 (Top 25%)</h3>
-                                    <span class="text-xs bg-pink-900/40 text-pink-200 px-2 py-1 rounded-full border border-pink-500/30">数学竞赛</span>
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-graduation-cap text-amber-300 mr-2"></i> 优秀毕业生</h3>
+                                    <span class="text-xs bg-amber-900/40 text-amber-200 px-2 py-1 rounded-full border border-amber-500/30">荣誉</span>
                                 </div>
-                                <p class="text-sm text-purple-300 mt-1">2023年11月</p>
-                                <p class="text-gray-300 text-sm mt-2">展现高级的证明型问题解决能力与数学推理思维。</p>
+                                <p class="text-sm text-purple-300 mt-1">2025年6月</p>
+                                <p class="text-gray-300 text-sm mt-2">被评为广州外国语学校优秀毕业生——授予成绩优异、具备领导力并为学校社区做出突出贡献的前2%毕业生。</p>
                             </div>
-                            <!-- 英国物理奥赛 金奖 -->
+                            <!-- USACO Gold -->
                             <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
                                 <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-atom text-purple-300 mr-2"></i> 英国物理奥林匹克 - 顶级金奖 (Top 2%)</h3>
-                                    <span class="text-xs bg-indigo-900/40 text-indigo-200 px-2 py-1 rounded-full border border-indigo-500/30">物理竞赛</span>
-                                </div>
-                                <p class="text-sm text-purple-300 mt-1">2023年11月</p>
-                                <p class="text-gray-300 text-sm mt-2">运用力学、电磁学、热力学等高级物理概念解决复杂多步骤分析问题。</p>
-                            </div>
-                            <!-- USACO 黄金 -->
-                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
-                                <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-code text-purple-300 mr-2"></i> 美国计算机奥林匹克 - 黄金组 (Top 10%)</h3>
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-code text-purple-300 mr-2"></i> 美国计算机奥林匹克竞赛 – 黄金组 (前10%)</h3>
                                     <span class="text-xs bg-purple-900/40 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">算法编程</span>
                                 </div>
                                 <p class="text-sm text-purple-300 mt-1">2024年2月</p>
-                                <p class="text-gray-300 text-sm mt-2">擅长算法优化、数据结构（线段树、Fenwick树、图论）及高效实现。</p>
-                            </div>
-                            <!-- Euclid 25% -->
-                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
-                                <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-chart-line text-indigo-300 mr-2"></i> 欧几里得数学竞赛 - 优异奖 (Top 25%)</h3>
-                                    <span class="text-xs bg-blue-900/40 text-blue-200 px-2 py-1 rounded-full border border-blue-500/30">数学竞赛</span>
-                                </div>
-                                <p class="text-sm text-purple-300 mt-1">2024年4月</p>
-                                <p class="text-gray-300 text-sm mt-2">在代数、组合数学与数论等领域的证明与解题中表现优异。</p>
-                            </div>
-                            <!-- AMC12 5% -->
-                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
-                                <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-calculator text-pink-300 mr-2"></i> AMC 12 - 优异奖 (Top 5%)</h3>
-                                    <span class="text-xs bg-purple-900/40 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">数学竞赛</span>
-                                </div>
-                                <p class="text-sm text-purple-300 mt-1">2024年11月</p>
-                                <p class="text-gray-300 text-sm mt-2">美国数学竞赛AMC12 全国前5%，获得杰出荣誉。</p>
-                            </div>
-                            <!-- RSNA 腰椎 铜牌 -->
-                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
-                                <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-x-ray text-rose-300 mr-2"></i> RSNA 2024 腰椎退行性病变分类 - 铜牌</h3>
-                                    <span class="text-xs bg-red-900/40 text-red-200 px-2 py-1 rounded-full border border-red-500/30">AI / 医学影像</span>
-                                </div>
-                                <p class="text-sm text-purple-300 mt-1">2024年10月</p>
-                                <p class="text-gray-300 text-sm mt-2">应用深度学习于放射影像的腰椎退行性病变分级，在Kaggle承办的RSNA挑战中获得铜牌。</p>
+                                <p class="text-gray-300 text-sm mt-2">擅长算法优化、数据结构（线段树、树状数组、图论）及高效实现。</p>
                             </div>
                             <!-- picoCTF -->
                             <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
                                 <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-shield-alt text-pink-300 mr-2"></i> picoCTF – 全球第38名 (Top 0.5%)</h3>
-                                    <span class="text-xs bg-rose-900/40 text-rose-200 px-2 py-1 rounded-full border border-rose-500/30">夺旗赛 (CTF)</span>
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-shield-alt text-pink-300 mr-2"></i> picoCTF – 全球第38名 / 11,517 (前0.3%)</h3>
+                                    <span class="text-xs bg-rose-900/40 text-rose-200 px-2 py-1 rounded-full border border-rose-500/30">网络安全</span>
                                 </div>
                                 <p class="text-sm text-purple-300 mt-1">2024年3月</p>
-                                <p class="text-gray-300 text-sm mt-2">具备密码学、数字取证与Web安全漏洞的实战经验。</p>
+                                <p class="text-gray-300 text-sm mt-2">参赛者，拥有密码学、数字取证和Web安全漏洞利用的实践经验。</p>
                             </div>
-                            <!-- 中国数字虚拟锦标赛 -->
+                            <!-- RSNA 2024 -->
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-x-ray text-rose-300 mr-2"></i> RSNA 2024 腰椎退行性病变分类 – 铜牌</h3>
+                                    <span class="text-xs bg-red-900/40 text-red-200 px-2 py-1 rounded-full border border-red-500/30">AI / 医学影像</span>
+                                </div>
+                                <p class="text-sm text-purple-300 mt-1">2024年10月</p>
+                                <p class="text-gray-300 text-sm mt-2">将深度学习应用于放射影像进行腰椎分类，在Kaggle主办的RSNA竞赛中获得铜牌。</p>
+                            </div>
+                            <!-- BPhO Top Gold -->
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-atom text-purple-300 mr-2"></i> 英国物理奥林匹克竞赛 – 超级金奖 (前2%)</h3>
+                                    <span class="text-xs bg-indigo-900/40 text-indigo-200 px-2 py-1 rounded-full border border-indigo-500/30">物理竞赛</span>
+                                </div>
+                                <p class="text-sm text-purple-300 mt-1">2023年11月</p>
+                                <p class="text-gray-300 text-sm mt-2">运用进阶物理概念（力学、电磁学、热力学）解决复杂多步骤分析问题。</p>
+                            </div>
+                            <!-- AMC 12 -->
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-calculator text-pink-300 mr-2"></i> AMC 12 – 优秀奖 (前5%)</h3>
+                                    <span class="text-xs bg-purple-900/40 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">数学</span>
+                                </div>
+                                <p class="text-sm text-purple-300 mt-1">2024年11月</p>
+                                <p class="text-gray-300 text-sm mt-2">在AMC 12美国数学竞赛中表现优异，位列全国前5%。</p>
+                            </div>
+                            <!-- BMO -->
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-brain text-pink-300 mr-2"></i> 英国数学奥林匹克 – 荣誉奖</h3>
+                                    <span class="text-xs bg-pink-900/40 text-pink-200 px-2 py-1 rounded-full border border-pink-500/30">数学奥林匹克</span>
+                                </div>
+                                <p class="text-sm text-purple-300 mt-1">2023年11月</p>
+                                <p class="text-gray-300 text-sm mt-2">入选参赛者，展现了高阶的基于证明的问题解决和数学推理能力。</p>
+                            </div>
+                            <!-- Euclid Contest -->
+                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
+                                <div class="flex flex-wrap justify-between items-start">
+                                    <h3 class="text-md font-bold text-white"><i class="fas fa-chart-line text-indigo-300 mr-2"></i> 欧几里得数学竞赛 – 荣誉奖</h3>
+                                    <span class="text-xs bg-blue-900/40 text-blue-200 px-2 py-1 rounded-full border border-blue-500/30">数学</span>
+                                </div>
+                                <p class="text-sm text-purple-300 mt-1">2024年4月</p>
+                                <p class="text-gray-300 text-sm mt-2">在代数、组合数学和数论的问题解决与证明题中表现突出。</p>
+                            </div>
+                            <!-- China Digital Virtual Championship -->
                             <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
                                 <div class="flex flex-wrap justify-between items-start">
                                     <h3 class="text-md font-bold text-white"><i class="fas fa-flag-checkered text-pink-300 mr-2"></i> 中国数字虚拟锦标赛 – 决赛入围</h3>
-                                    <span class="text-xs bg-amber-900/40 text-amber-200 px-2 py-1 rounded-full border border-amber-500/30">模拟竞速</span>
+                                    <span class="text-xs bg-amber-900/40 text-amber-200 px-2 py-1 rounded-full border border-amber-500/30">模拟赛车</span>
                                 </div>
                                 <p class="text-sm text-purple-300 mt-1">2024年7月</p>
-                                <p class="text-gray-300 text-sm mt-2">将策略性比赛技巧与车辆动力学知识相结合，在高压环境下保持稳定节奏与速度。</p>
-                            </div>
-                            <!-- 中级物理挑战赛 全球金奖 -->
-                            <div class="bg-white/5 rounded-xl p-4 border border-purple-500/20 hover:border-pink-500/40 transition-all">
-                                <div class="flex flex-wrap justify-between items-start">
-                                    <h3 class="text-md font-bold text-white"><i class="fas fa-trophy text-yellow-300 mr-2"></i> 中级物理挑战赛 - 全球金奖</h3>
-                                    <span class="text-xs bg-emerald-900/40 text-emerald-200 px-2 py-1 rounded-full border border-emerald-500/30">物理竞赛</span>
-                                </div>
-                                <p class="text-sm text-purple-300 mt-1">2024年6月</p>
-                                <p class="text-gray-300 text-sm mt-2">全球金奖，展示出色的物理概念理解与中等级别物理问题解决能力。</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 项目经历 -->
-                    <div>
-                        <div class="flex items-center gap-3 mb-5">
-                            <i class="fas fa-microchip text-2xl text-purple-400"></i>
-                            <h2 class="section-title text-xl font-bold text-white">个人项目</h2>
-                        </div>
-                        <div class="space-y-4">
-                            <!-- httj 服务器框架 -->
-                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
-                                <h3 class="font-bold text-white"><i class="fas fa-server text-pink-300 mr-2"></i> httj – C语言HTTP服务器框架</h3>
-                                <p class="text-sm text-purple-300 mt-1">C · Socket编程 · 多线程</p>
-                                <p class="text-gray-300 text-sm mt-2">从零使用C语言构建轻量级HTTP服务器框架，实现请求解析、路由分发与响应处理，支持静态文件服务。</p>
-                            </div>
-                            <!-- 模拟赛车踏板 STM32 -->
-                            <div class="bg-black/30 border border-purple-500/20 rounded-xl p-4 hover:border-pink-400/40 transition">
-                                <h3 class="font-bold text-white"><i class="fas fa-microchip text-pink-300 mr-2"></i> 模拟赛车踏板 – STM32 · 霍尔效应 · 压力传感器</h3>
-                                <p class="text-sm text-purple-300 mt-1">STM32 · C · 嵌入式系统 · 传感器融合</p>
-                                <p class="text-gray-300 text-sm mt-2">基于STM32微控制器设计并制作了一套定制模拟赛车踏板：油门采用非接触霍尔效应传感器，刹车使用高精度压力传感器（Load Cell）实现精准制动力测量。</p>
+                                <p class="text-gray-300 text-sm mt-2">将策略性驾驶技巧与车辆动力学知识相结合，在压力下保持稳定性和速度。</p>
                             </div>
                         </div>
                     </div>
@@ -303,20 +303,18 @@
                     <a href="#" class="hover:text-pink-400 transition"><i class="fab fa-github"></i> Gitee</a>
                 </div>
                 <p class="text-center">© 2026 王睿 <i class="fas fa-heart text-pink-500"></i></p>
-                <button onclick="window.print()" class="bg-white/5 border border-purple-500/40 hover:bg-purple-900/40 text-gray-200 px-3 py-1 rounded-full text-xs transition flex items-center gap-1"><i class="fas fa-print text-pink-300"></i> 打印 / PDF</button>
+                <button onclick="window.print()" class="bg-white/5 border border-purple-500/40 hover:bg-purple-900/40 text-gray-200 px-3 py-1 rounded-full text-xs transition flex items-center gap-1"><i class="fas fa-print text-pink-300"></i> 打印 / 导出PDF</button>
             </div>
         </div>
     </main>
 
     <script>
-        // 外部链接新窗口打开
         document.querySelectorAll('a[href^="http"]').forEach(link => {
             if (!link.href.includes(window.location.hostname)) {
                 link.setAttribute('target', '_blank');
                 link.setAttribute('rel', 'noopener noreferrer');
             }
         });
-        // 打印样式支持
         const printStyle = document.createElement('style');
         printStyle.innerHTML = `@media print { body { background: white; } .resume-card { box-shadow: none; margin:0; background: #0E0C15; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .bg-gradient-to-r, .bg-black\\/30, .bg-white\\/5 { background: #111 !important; } button, .fa-heart { display: none; } a { text-decoration: none; color: #c084fc; } }`;
         document.head.appendChild(printStyle);
